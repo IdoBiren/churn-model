@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Data (re-downloadable via src/download_data.py)
+data/*.csv
+
+# Generated plots
+plots/*.png
+
+# IDE
+.idea/
+.vscode/
